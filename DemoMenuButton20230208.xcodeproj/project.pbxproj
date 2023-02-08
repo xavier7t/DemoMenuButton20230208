@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		256E90AD29944041005138B4 /* DemoMenuButton20220208App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E90AC29944041005138B4 /* DemoMenuButton20220208App.swift */; };
+		256E90AD29944041005138B4 /* DemoMenuButton20230208App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E90AC29944041005138B4 /* DemoMenuButton20230208App.swift */; };
 		256E90AF29944041005138B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E90AE29944041005138B4 /* ContentView.swift */; };
 		256E90B129944042005138B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256E90B029944042005138B4 /* Assets.xcassets */; };
 		256E90B429944042005138B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 256E90B329944042005138B4 /* Preview Assets.xcassets */; };
+		256E90BB299446A4005138B4 /* DemoMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256E90BA299446A4005138B4 /* DemoMenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		256E90A929944040005138B4 /* DemoMenuButton20220208.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMenuButton20220208.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		256E90AC29944041005138B4 /* DemoMenuButton20220208App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMenuButton20220208App.swift; sourceTree = "<group>"; };
+		256E90A929944040005138B4 /* DemoMenuButton20230208.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMenuButton20230208.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		256E90AC29944041005138B4 /* DemoMenuButton20230208App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMenuButton20230208App.swift; sourceTree = "<group>"; };
 		256E90AE29944041005138B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		256E90B029944042005138B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		256E90B329944042005138B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		256E90BA299446A4005138B4 /* DemoMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		256E90A029944040005138B4 = {
 			isa = PBXGroup;
 			children = (
-				256E90AB29944040005138B4 /* DemoMenuButton20220208 */,
+				256E90AB29944040005138B4 /* DemoMenuButton20230208 */,
 				256E90AA29944040005138B4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +45,21 @@
 		256E90AA29944040005138B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				256E90A929944040005138B4 /* DemoMenuButton20220208.app */,
+				256E90A929944040005138B4 /* DemoMenuButton20230208.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		256E90AB29944040005138B4 /* DemoMenuButton20220208 */ = {
+		256E90AB29944040005138B4 /* DemoMenuButton20230208 */ = {
 			isa = PBXGroup;
 			children = (
-				256E90AC29944041005138B4 /* DemoMenuButton20220208App.swift */,
+				256E90AC29944041005138B4 /* DemoMenuButton20230208App.swift */,
 				256E90AE29944041005138B4 /* ContentView.swift */,
+				256E90BA299446A4005138B4 /* DemoMenuView.swift */,
 				256E90B029944042005138B4 /* Assets.xcassets */,
 				256E90B229944042005138B4 /* Preview Content */,
 			);
-			path = DemoMenuButton20220208;
+			path = DemoMenuButton20230208;
 			sourceTree = "<group>";
 		};
 		256E90B229944042005138B4 /* Preview Content */ = {
@@ -70,9 +73,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		256E90A829944040005138B4 /* DemoMenuButton20220208 */ = {
+		256E90A829944040005138B4 /* DemoMenuButton20230208 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 256E90B729944042005138B4 /* Build configuration list for PBXNativeTarget "DemoMenuButton20220208" */;
+			buildConfigurationList = 256E90B729944042005138B4 /* Build configuration list for PBXNativeTarget "DemoMenuButton20230208" */;
 			buildPhases = (
 				256E90A529944040005138B4 /* Sources */,
 				256E90A629944040005138B4 /* Frameworks */,
@@ -82,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = DemoMenuButton20220208;
+			name = DemoMenuButton20230208;
 			productName = DemoMenuButton20220208;
-			productReference = 256E90A929944040005138B4 /* DemoMenuButton20220208.app */;
+			productReference = 256E90A929944040005138B4 /* DemoMenuButton20230208.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 256E90A429944040005138B4 /* Build configuration list for PBXProject "DemoMenuButton20220208" */;
+			buildConfigurationList = 256E90A429944040005138B4 /* Build configuration list for PBXProject "DemoMenuButton20230208" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				256E90A829944040005138B4 /* DemoMenuButton20220208 */,
+				256E90A829944040005138B4 /* DemoMenuButton20230208 */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +141,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				256E90AF29944041005138B4 /* ContentView.swift in Sources */,
-				256E90AD29944041005138B4 /* DemoMenuButton20220208App.swift in Sources */,
+				256E90BB299446A4005138B4 /* DemoMenuView.swift in Sources */,
+				256E90AD29944041005138B4 /* DemoMenuButton20230208App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +270,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoMenuButton20220208/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DemoMenuButton20230208/Preview Content\"";
 				DEVELOPMENT_TEAM = R32QX33ST9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -280,7 +284,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xavier7t.DemoMenuButton20220208;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xavier7t.DemoMenuButton20230208;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,7 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DemoMenuButton20220208/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DemoMenuButton20230208/Preview Content\"";
 				DEVELOPMENT_TEAM = R32QX33ST9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,7 +313,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.xavier7t.DemoMenuButton20220208;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xavier7t.DemoMenuButton20230208;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +324,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		256E90A429944040005138B4 /* Build configuration list for PBXProject "DemoMenuButton20220208" */ = {
+		256E90A429944040005138B4 /* Build configuration list for PBXProject "DemoMenuButton20230208" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				256E90B529944042005138B4 /* Debug */,
@@ -329,7 +333,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		256E90B729944042005138B4 /* Build configuration list for PBXNativeTarget "DemoMenuButton20220208" */ = {
+		256E90B729944042005138B4 /* Build configuration list for PBXNativeTarget "DemoMenuButton20230208" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				256E90B829944042005138B4 /* Debug */,
